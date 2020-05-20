@@ -48,12 +48,6 @@
                         </table>
                     </div>
                 </text>
-                <extension url="http://nictiz.nl/fhir/StructureDefinition/images-recipient">
-                    <valueReference>
-                        <reference value="urn:uuid:4404ed56-d348-4036-affb-bccbad77a076"/>
-                        <display value="Dhr. A. Cornelissen, Maatschap Vaste Huisarts"/>
-                    </valueReference>
-                </extension>
                 <identifier>
                     <use value="official"/>
                     <system value="http://example.phr.org/system/"/>
