@@ -167,7 +167,7 @@
     </element>
     <element id="Specimen.collection.collected[x]:collectedDateTime">
       <path value="Specimen.collection.collected[x]" />
-      <sliceName value="collectedDateTime"/>
+      <sliceName value="collectedDateTime" />
       <short value="CollectionDateTime" />
       <alias value="AfnameDatumTijd" />
       <type>
@@ -191,11 +191,11 @@
     </element>
     <element id="Specimen.collection.collected[x]:collectedPeriod">
       <path value="Specimen.collection.collected[x]" />
-      <sliceName value="collectedPeriod"/>
+      <sliceName value="collectedPeriod" />
       <short value="CollectionPeriod" />
       <alias value="Verzamelperiode" />
       <type>
-        <code value="Period"/>
+        <code value="Period" />
       </type>
       <mapping>
         <identity value="hcim-laboratorytestresult-v4.1-2017EN" />
