@@ -90,7 +90,7 @@
     <status value="booked"/>
     <serviceCategory>
         <coding>
-            <system value=" http://hl7.org/fhir/service-category"/>
+            <system value="http://hl7.org/fhir/service-category"/>
             <code value="27"/>
             <display value="Specialist Medical"/>
         </coding>
