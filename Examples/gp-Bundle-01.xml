@@ -878,7 +878,7 @@
                         <coding>
                             <system value="http://hl7.org/fhir/v3/ParticipationType"/>
                             <code value="AUT"/>
-                            <display value="author"/>
+                            <display value="author (originator)"/>
                         </coding>
                     </type>
                     <individual>
@@ -1379,7 +1379,7 @@
                         <coding>
                             <system value="http://hl7.org/fhir/v3/ParticipationType"/>
                             <code value="AUT"/>
-                            <display value="author"/>
+                            <display value="author (originator)"/>
                         </coding>
                     </type>
                     <individual>
@@ -1883,7 +1883,7 @@
                         <coding>
                             <system value="http://hl7.org/fhir/v3/ParticipationType"/>
                             <code value="AUT"/>
-                            <display value="author"/>
+                            <display value="author (originator)"/>
                         </coding>
                     </type>
                     <individual>
@@ -2285,7 +2285,7 @@
                         <coding>
                             <system value="http://hl7.org/fhir/v3/ParticipationType"/>
                             <code value="AUT"/>
-                            <display value="author"/>
+                            <display value="author (originator)"/>
                         </coding>
                     </type>
                     <individual>
@@ -2534,7 +2534,7 @@
                         <coding>
                             <system value="http://hl7.org/fhir/v3/ParticipationType"/>
                             <code value="AUT"/>
-                            <display value="author"/>
+                            <display value="author (originator)"/>
                         </coding>
                     </type>
                     <individual>
@@ -2762,7 +2762,7 @@
                         <coding>
                             <system value="http://hl7.org/fhir/v3/ParticipationType"/>
                             <code value="AUT"/>
-                            <display value="author"/>
+                            <display value="author (originator)"/>
                         </coding>
                     </type>
                     <individual>
@@ -3014,7 +3014,7 @@
                         <coding>
                             <system value="http://hl7.org/fhir/v3/ParticipationType"/>
                             <code value="AUT"/>
-                            <display value="author"/>
+                            <display value="author (originator)"/>
                         </coding>
                     </type>
                     <individual>
@@ -3264,7 +3264,7 @@
                         <coding>
                             <system value="http://hl7.org/fhir/v3/ParticipationType"/>
                             <code value="AUT"/>
-                            <display value="author"/>
+                            <display value="author (originator)"/>
                         </coding>
                     </type>
                     <individual>
@@ -3741,7 +3741,7 @@
                         <coding>
                             <system value="http://hl7.org/fhir/v3/ParticipationType"/>
                             <code value="AUT"/>
-                            <display value="author"/>
+                            <display value="author (originator)"/>
                         </coding>
                     </type>
                     <individual>
