@@ -57,6 +57,10 @@
         <comment value="MeasurementValue" />
       </mapping>
     </element>
+    <element id="Observation.status">
+      <path value="Observation.status" />
+      <comment value="A ConceptMap (https://simplifier.net/resolve?canonical=http://nictiz.nl/fhir/ConceptMap/ResultStatusCodelist-to-ObservationStatus) is available that maps ResultStatusCodelist to the Observation-Status valueset."/>
+    </element>
     <element id="Observation.status.extension">
       <path value="Observation.status.extension" />
       <slicing>
