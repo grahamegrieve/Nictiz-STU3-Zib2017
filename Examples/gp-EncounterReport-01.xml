@@ -18,7 +18,7 @@
                 <tbody>
                     <tr>
                         <th>Type</th>
-                        <td>67781-5 (LOINC)</td>
+                        <td><span title="General medicine Progress note (34900-1 LOINC)">General medicine Progress note</span></td>
                     </tr>
                     <tr>
                         <th>Gemaakt</th>
@@ -39,7 +39,8 @@
     <type>
         <coding>
             <system value="http://loinc.org"/>
-            <code value="67781-5"/>
+            <code value="34900-1"/>
+            <display value="General medicine Progress note"/>
         </coding>
     </type>
     <subject>
