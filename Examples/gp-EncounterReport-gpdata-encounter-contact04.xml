@@ -1,7 +1,4 @@
-<?xml-model href="http://hl7.org/fhir/STU3/composition.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<Composition xmlns="http://hl7.org/fhir"
-             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/fhir-all.xsd">
+<Composition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/fhir-all.xsd">
    <id value="gp-EncounterReport-gpdata-encounter-contact04"/>
    <meta>
       <lastUpdated value="2018-11-11T11:19:35.395+01:00"/>
@@ -13,7 +10,7 @@
          <b>Contactverslag dd. 2020-03-15</b>
          <table>
             <caption>Samengestelde informatie. Subject: <a href="Patient/gpdata-patient-01">Jacqueline XXX_Cevat</a>. Status: definitief<span style="display: block;">Auteur: <a href="PractitionerRole/gpdata-practitionerrole-01">Dr. V. Huisarts 1</a>
-            </span>
+               </span>
             </caption>
             <tbody>
                <tr>
@@ -55,10 +52,10 @@
    <date value="2020-03-15"/>
    <author>
       <extension url="http://nictiz.nl/fhir/StructureDefinition/practitionerrole-reference">
-          <valueReference>
-              <reference value="PractitionerRole/gpdata-practitionerrole-01"/>
-              <display value="Dr. V. Huisarts 1"/>
-          </valueReference>
+         <valueReference>
+            <reference value="PractitionerRole/gpdata-practitionerrole-01"/>
+            <display value="Dr. V. Huisarts 1"/>
+         </valueReference>
       </extension>
       <reference value="Practitioner/gpdata-practitioner-01"/>
       <display value="Dr. V. Huisarts 1"/>
@@ -68,18 +65,18 @@
       <extension url="http://nictiz.nl/fhir/StructureDefinition/code-icpc-1-nl">
          <valueCodeableConcept>
             <coding>
-                <system value="http://hl7.org/fhir/sid/icpc-1-nl"/>
-                <code value="L03"/>
-                <display value="Lage-rugpijn zonder uitstraling [ex. L86]"/>
+               <system value="http://hl7.org/fhir/sid/icpc-1-nl"/>
+               <code value="L03"/>
+               <display value="Lage-rugpijn zonder uitstraling [ex. L86]"/>
             </coding>
-        </valueCodeableConcept>
+         </valueCodeableConcept>
       </extension>
       <code>
-        <coding>
+         <coding>
             <system value="http://fhir.nl/fhir/NamingSystem/journaalregeltypen"/>
             <code value="E"/>
             <display value="Evaluatie"/>
-        </coding>
+         </coding>
       </code>
       <text>
          <status value="additional"/>

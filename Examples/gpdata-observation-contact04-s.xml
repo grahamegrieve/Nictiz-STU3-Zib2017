@@ -1,6 +1,4 @@
-<Observation xmlns="http://hl7.org/fhir"
-             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/observation.xsd">
+<Observation xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/observation.xsd">
     <id value="gpdata-observation-contact04-s"/>
     <meta>
         <profile value="http://nictiz.nl/fhir/StructureDefinition/gp-JournalEntry"/>
@@ -10,7 +8,7 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <table>
                 <caption>Observatie/bepaling. Subject: <a href="Patient/gpdata-patient-01">Jacqueline XXX_Cevat</a>. Status: definitief<span style="display: block;">Uitvoerende: <a href="PractitionerRole/gpdata-practitionerrole-01">Dr. V. Huisarts 1</a>
-                </span>
+                    </span>
                 </caption>
                 <tbody>
                     <tr>

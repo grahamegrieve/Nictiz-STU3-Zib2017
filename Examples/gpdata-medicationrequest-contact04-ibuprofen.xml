@@ -1,6 +1,4 @@
-<MedicationRequest xmlns="http://hl7.org/fhir"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/fhir-all.xsd">
+<MedicationRequest xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir http://hl7.org/fhir/STU3/fhir-all.xsd">
     <id value="gpdata-medicationrequest-contact04-ibuprofen"/>
     <meta>
         <profile value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationAgreement"/>
@@ -97,7 +95,7 @@
                 </valueReference>
             </extension>
             <reference value="Practitioner/gpdata-practitioner-01"/>
-        <display value="V. Huisarts 1"/>
+            <display value="V. Huisarts 1"/>
         </agent>
     </requester>
     <dosageInstruction>
