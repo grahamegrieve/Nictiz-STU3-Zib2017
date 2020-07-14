@@ -42,7 +42,7 @@
         <coding>
             <system value="https://referentiemodel.nhg.org/tabellen/nhg-tabel-14-contactwijze"/>
             <code value="03"/>
-            <display value="Consult"/>
+            <display value="consult"/>
         </coding>
     </type>
     <subject>
