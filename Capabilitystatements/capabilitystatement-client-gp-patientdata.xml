@@ -41,10 +41,10 @@
         <reference value="http://fhir.nl/fhir/StructureDefinition/nl-core-episodeofcare"/>
         <display value="nl-core-episodeofcare"/>
     </profile>
-    <profile>
+    <!--<profile>
         <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-Procedure"/>
         <display value="zib-Procedure"/>
-    </profile>
+    </profile>-->
     <profile>
         <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-Problem"/>
         <display value="zib-Problem"/>
@@ -57,18 +57,18 @@
         <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationAgreement"/>
         <display value="zib-MedicationAgreement"/>
     </profile>
-    <profile>
+    <!--<profile>
         <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-MedicationUse"/>
         <display value="zib-MedicationUse"/>
-    </profile>
+    </profile>-->
     <profile>
         <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-AllergyIntolerance"/>
         <display value="zib-AllergyIntolerance"/>
     </profile>
-    <profile>
+    <!--<profile>
         <reference value="http://ihe.net/fhir/StructureDefinition/IHE.MHD.DocumentReference"/>
         <display value="IHE.MHD.DocumentReference"/>
-    </profile>
+    </profile>-->
     <profile>
         <reference value="http://nictiz.nl/fhir/StructureDefinition/gp-DiagnosticResult"/>
         <display value="gp-DiagnosticResult"/>
@@ -78,8 +78,16 @@
         <display value="gp-EncounterReport"/>
     </profile>
     <profile>
-        <reference value="http://nictiz.nl/fhir/StructureDefinition/zib-Encounter"/>
-        <display value="zib-Encounter"/>
+        <reference value="http://nictiz.nl/fhir/StructureDefinition/gp-JournalEntry"/>
+        <display value="gp-JournalEntry"/>
+    </profile>
+    <profile>
+        <reference value="http://nictiz.nl/fhir/StructureDefinition/gp-Encounter"/>
+        <display value="gp-Encounter"/>
+    </profile>
+    <profile>
+        <reference value="http://nictiz.nl/fhir/StructureDefinition/gp-LaboratoryResult"/>
+        <display value="gp-LaboratoryResult"/>
     </profile>
     <rest>
         <mode value="client"/>
@@ -105,7 +113,7 @@
                 <type value="token"/>
             </searchParam>
         </resource>
-        <resource>
+        <!--<resource>
             <type value="Procedure"/>
             <interaction>
                 <code value="search-type"/>
@@ -118,7 +126,7 @@
                 <name value="category"/>
                 <type value="token"/>
             </searchParam>
-        </resource>
+        </resource>-->
         <resource>
             <type value="Observation"/>
             <interaction>
@@ -166,7 +174,7 @@
                 <type value="reference"/>
             </searchParam>
         </resource>
-        <resource>
+        <!--<resource>
             <type value="DocumentReference"/>
             <interaction>
                 <code value="search-type"/>
@@ -223,7 +231,7 @@
                 <name value="related-id"/>
                 <type value="token"/>
             </searchParam>
-        </resource>
+        </resource>-->
         <resource>
             <type value="Composition"/>
             <interaction>
@@ -233,6 +241,12 @@
                 <name value="type"/>
                 <type value="token"/>
             </searchParam>
+        </resource>
+        <resource>
+            <type value="Encounter"/>
+            <interaction>
+                <code value="search-type"/>
+            </interaction>
         </resource>
         <interaction>
             <code value="batch"/>
