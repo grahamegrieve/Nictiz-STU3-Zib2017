@@ -146,7 +146,6 @@
             <valueBoolean value="true"/>
         </extension>
         <use value="home"/>
-        <type value="both"/>
         <line value="Knolweg 1020">
             <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
                 <valueString value="Knolweg"/>
