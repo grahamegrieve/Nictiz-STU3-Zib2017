@@ -67,16 +67,8 @@
         <type value="date" />
       </searchParam>
       <searchParam>
-        <name value="author" />
-        <type value="reference" />
-      </searchParam>
-      <searchParam>
         <name value="type" />
         <type value="token" />
-      </searchParam>
-      <searchParam>
-        <name value="source" />
-        <type value="uri" />
       </searchParam>
       <searchParam>
         <name value="status" />
@@ -101,43 +93,11 @@
         <type value="date" />
       </searchParam>
       <searchParam>
-        <name value="author" />
-        <type value="reference" />
-      </searchParam>
-      <searchParam>
         <name value="class" />
         <type value="token" />
       </searchParam>
       <searchParam>
         <name value="type" />
-        <type value="token" />
-      </searchParam>
-      <searchParam>
-        <name value="setting" />
-        <type value="token" />
-      </searchParam>
-      <searchParam>
-        <name value="period" />
-        <type value="date" />
-      </searchParam>
-      <searchParam>
-        <name value="facility" />
-        <type value="token" />
-      </searchParam>
-      <searchParam>
-        <name value="event" />
-        <type value="token" />
-      </searchParam>
-      <searchParam>
-        <name value="securityLabel" />
-        <type value="token" />
-      </searchParam>
-      <searchParam>
-        <name value="format" />
-        <type value="token" />
-      </searchParam>
-      <searchParam>
-        <name value="related-id" />
         <type value="token" />
       </searchParam>
     </resource>
