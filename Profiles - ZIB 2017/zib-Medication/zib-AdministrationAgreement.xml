@@ -25,6 +25,12 @@
     <name value="HCIM AdministrationAgreement-v1.0(2017EN)" />
   </mapping>
   <mapping>
+    <identity value="Medication-Process-v09" />
+    <uri value="https://decor.nictiz.nl/medicatieproces/mp-html-20181220T121121/ds-2.16.840.1.113883.2.4.3.11.60.20.77.1.3-2016-06-01T000000.html" />
+    <name value="Medication Process v09" />
+    <comment value="Language of Medication Process is Dutch." />
+  </mapping>
+  <mapping>
     <identity value="hcim-instructionsforuse-v1.0-2017EN" />
     <uri value="https://zibs.nl/wiki/InstructionsForUse-v1.0(2017EN)" />
     <name value="HCIM InstructionsForUse-v1.0(2017EN)" />
@@ -165,6 +171,24 @@
           <display value="ToedieningsafspraakAanvullendeInformatieCodelijst" />
         </valueSetReference>
       </binding>
+    </element>
+    <element id="MedicationDispense.extension:medicationTreatment">
+      <path value="MedicationDispense.extension" />
+      <sliceName value="medicationTreatment" />
+      <short value="Medication Treatment" />
+      <definition value="This extension is to describe which overarching medication treatment this information is part of. This is done by the use of an identifier of that medication treatment." />
+      <comment value="No HCIM concept is available for this element. Therefore a mapping to the relevant element Medication Process data element is provided." />
+      <alias value="Medicamenteuze behandeling" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/zib-Medication-MedicationTreatment" />
+      </type>
+      <mapping>
+        <identity value="Medication-Process-v09" />
+        <map value="mp-dataelement900-22092" />
+        <comment value="Medicamenteuze behandeling" />
+      </mapping>
     </element>
     <element id="MedicationDispense.modifierExtension">
       <path value="MedicationDispense.modifierExtension" />
