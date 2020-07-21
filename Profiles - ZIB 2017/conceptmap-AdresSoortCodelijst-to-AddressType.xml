@@ -40,7 +40,6 @@
         <element>
             <code value="HP"/>
             <target>
-                <code value="physical"/>
                 <equivalence value="unmatched"/>
                 <comment value="HP: Primary home/Officieel adres."/>
             </target>
