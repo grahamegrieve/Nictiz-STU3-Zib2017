@@ -346,18 +346,18 @@
       <mapping>
         <identity value="hcim-contactinformation-v1.0-2017EN" />
         <map value="NL-CM:20.6.5" />
-        <comment value="TelecomType. See for details the ConceptMap https://simplifier.net/resolve?target=simplifier&amp;canonical=http://nictiz.nl/fhir/ConceptMap/TelecomSoortCodelijst-to-ContactPointSystem" />
+        <comment value="TelecomType. See for details the ConceptMap https://simplifier.net/resolve?target=simplifier&amp;canonical=http://nictiz.nl/fhir/ConceptMap/TelecomTypeCodelijst-to-ContactPointSystem" />
       </mapping>
     </element>
     <element id="ContactPoint.system">
       <path value="ContactPoint.system" />
       <short value="TelecomType / EmailAddressType" />
-      <alias value="TelecomSoort / EmailSoort" />
+      <alias value="TelecomType / EmailSoort" />
       <min value="1" />
       <mapping>
         <identity value="hcim-contactinformation-v1.0-2017EN" />
         <map value="NL-CM:20.6.5" />
-        <comment value="TelecomType. See for details the ConceptMap https://simplifier.net/resolve?target=simplifier&amp;canonical=http://nictiz.nl/fhir/ConceptMap/TelecomSoortCodelijst-to-ContactPointSystem" />
+        <comment value="TelecomType. See for details the ConceptMap https://simplifier.net/resolve?target=simplifier&amp;canonical=http://nictiz.nl/fhir/ConceptMap/TelecomTypeCodelijst-to-ContactPointSystem" />
       </mapping>
       <mapping>
         <identity value="hcim-contactinformation-v2.0.1-2015EN" />
@@ -422,11 +422,11 @@
       <path value="ContactPoint.use" />
       <short value="TelecomType / NumberType / EmailAddressType" />
       <definition value="Purpose of this contact point" />
-      <alias value="TelecomSoort / NummerSoort / EmailSoort" />
+      <alias value="TelecomType / NummerSoort / EmailSoort" />
       <mapping>
         <identity value="hcim-contactinformation-v1.0-2017EN" />
         <map value="NL-CM:20.6.5" />
-        <comment value="TelecomType. See for details the ConceptMap https://simplifier.net/resolve?target=simplifier&amp;canonical=http://nictiz.nl/fhir/ConceptMap/TelecomSoortCodelijst-to-ContactPointUse" />
+        <comment value="TelecomType. See for details the ConceptMap https://simplifier.net/resolve?target=simplifier&amp;canonical=http://nictiz.nl/fhir/ConceptMap/TelecomTypeCodelijst-to-ContactPointUse" />
       </mapping>
       <mapping>
         <identity value="hcim-contactinformation-v2.0.1-2015EN" />
