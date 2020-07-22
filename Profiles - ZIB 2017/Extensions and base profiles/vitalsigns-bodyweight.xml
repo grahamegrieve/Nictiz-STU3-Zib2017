@@ -63,8 +63,14 @@
     <element id="Observation.code.coding:bodyWeightCode.code">
       <path value="Observation.code.coding.code" />
       <min value="1" />
-      <defaultValueCode value="Body weight" />
       <fixedCode value="29463-7" />
+    </element>
+    <element id="Observation.code.coding:bodyWeightCode.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Observation.code.coding.display" />
+      <defaultValueString value="Body weight" />
     </element>
     <element id="Observation.valueQuantity:valueQuantity.code">
       <path value="Observation.valueQuantity.code" />
