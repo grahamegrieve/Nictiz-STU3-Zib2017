@@ -340,7 +340,7 @@
       <sliceName value="InterpretatieVlaggenCodelijst" />
       <short value="ResultFlags" />
       <definition value="Attention codes indicating whether the result is above or below certain reference values or interpreting the result otherwise. (Resistent)" />
-      <comment value="This slice binds the ValueSet from the HCIM, which overlaps the ValueSet from the core FHIR Observation. A ConceptMap (https://simplifier.net/resolve?canonical=http://nictiz.nl/fhir/ConceptMap/InterpretatieVlaggenCodelijst-to-observation-interpretation) is available that explains the relationship between the FHIR observation-interpretation value set and the HCIM ResultFlagsCodelist." />
+      <comment value="This slice binds the ValueSet from the HCIM, which overlaps the ValueSet from the core FHIR Observation. To satisfy the FHIR profiling rules, the code from the core FHIR ValueSet SHOULD be included as well if a code from this ValueSet is included. A ConceptMap (https://simplifier.net/resolve?canonical=http://nictiz.nl/fhir/ConceptMap/InterpretatieVlaggenCodelijst-to-observation-interpretation) is available that explains the relationship between the FHIR observation-interpretation value set and the HCIM ResultFlagsCodelist." />
       <alias value="InterpretatieVlaggen" />
       <binding>
         <strength value="required" />
