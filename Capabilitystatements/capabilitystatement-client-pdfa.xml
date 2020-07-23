@@ -38,15 +38,9 @@
   </profile> 
   <profile>
     <reference value="http://nictiz.nl/fhir/StructureDefinition/IHE.MHD.DocumentManifest" />
-  </profile>
+  </profile> 
   <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/IHE.MHD.DocumentManifest" />
-  </profile>  
-  <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/IHE.MHD.Provide.Minimal.DocumentReference" />
-  </profile>
-  <profile>
-    <reference value="http://nictiz.nl/fhir/StructureDefinition/IHE.MHD.Query.Minimal.DocumentReference" />
+    <reference value="http://nictiz.nl/fhir/StructureDefinition/IHE.MHD.Minimal.DocumentReference" />
   </profile>
   <profile>
     <reference value="http://nictiz.nl/fhir/StructureDefinition/IHE.MHD.List" />
