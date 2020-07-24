@@ -29,7 +29,7 @@
                   <display value="Pending"/>
                   <target>
                         <code value="registered"/>
-                        <display value="Registeredd"/>
+                        <display value="Registered"/>
                         <equivalence value="equal"/>
                   </target>
             </element>
